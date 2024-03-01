@@ -1356,12 +1356,11 @@ body {
 }
 
 .text {
- padding: 20,20,20,20;
   color: aliceblue;
   position: absolute;
   top: 50%;
-  left: 70%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 20%; /* Establece el ancho máximo del texto */
-  font-size: 1.2rem; /* Puedes ajustar el tamaño del texto si es necesario */
+  max-width: 100%; /* Cambia el ancho máximo al 100% para que el texto se ajuste al ancho del dispositivo */
+  font-size: 1.2rem;
 }
